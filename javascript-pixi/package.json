@@ -27,6 +27,7 @@
     "@gamestdio/timer": "^1.1.9",
     "colyseus.js": "^0.14.0",
     "pixi.js": "^4.7.3",
+    "tictactoe-colyseus": "file:..",
     "tweener": "^0.1.3"
   },
   "babel": {
