@@ -2,12 +2,12 @@
 
 Turn-based demonstration project using Colyseus 
 
-- [JavaScript/PixiJS](#javascript--pixijs)
-- [Defold Engine](#defold-engine)
+- [Tic-Tac-Toe Multiplayer](#tic-tac-toe-multiplayer)
+- [Running the server locally](#running-the-server-locally)
+  - [JavaScript / PixiJS](#javascript--pixijs)
+  - [Defold Engine](#defold-engine)
+  - [License](#license)
 
-If you want to see more examples like this and help Colyseus to grow, consider supporting my work on Patreon.
-
-<a href="https://www.patreon.com/bePatron?u=3301115"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" /></a>
 
 # Running the server locally
 
