@@ -13,7 +13,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const gameServer = new Server({
   server: server,
-  express: app
+  // express: app
 });
 
 gameServer.define('tictactoe', TicTacToe);
