@@ -1,2 +1,2 @@
-web: npm start
-client: cd javascript-pixi && npm start
+server: npm start:server
+client: npm start:client
