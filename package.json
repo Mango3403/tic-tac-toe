@@ -1,6 +1,6 @@
 {
   "name": "tictactoe-colyseus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML5 Tic-Tac-Toe Game powered by Colyseus",
   "scripts": {
     "install": "npm install --prefix ./server && npm install --prefix ./javascript-pixi && npm run build --prefix ./javascript-pixi",
