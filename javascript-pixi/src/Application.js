@@ -11,7 +11,7 @@ window.tweener = new Tweener();
 // define endpoint based on environment
 const endpoint = (window.location.hostname.indexOf("herokuapp") === -1)
   ? "ws://localhost:3553"  // development (local) "ws://localhost:3553", "ws://tic-tac-toe-server-a99afd49.herokuapp.com"
-  : `${window.location.protocol.replace("http", "ws")}//ws://tic-tac-toe-server-a99afd49.herokuapp.com` // production (remote)
+  : `${window.location.protocol.replace("http", "ws")}//tic-tac-toe-server-a99afd49.herokuapp.com` // production (remote)
 
 import { Client } from 'colyseus.js'
 window.colyseus = new Client(endpoint);
