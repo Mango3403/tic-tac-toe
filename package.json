@@ -5,7 +5,7 @@
   "scripts": {
     "install": "npm install --prefix ./server && npm install --prefix ./javascript-pixi",
     "start": "npm start --prefix ./server",
-    "build": "npm run build --prefix ./javascript-pixi"
+    "build:client": "npm run build --prefix ./javascript-pixi"
   },
   "author": "Endel Dreyer",
   "dependencies": {
