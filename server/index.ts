@@ -10,8 +10,6 @@ const port = Number(process.env.PORT || 3553);
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => res.send('Hello World!'));
-
 const server = http.createServer(app);
 const gameServer = new Server({
   server: server,
