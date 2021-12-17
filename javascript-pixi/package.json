@@ -1,10 +1,10 @@
 {
   "name": "tictactoe-frontend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tic Tac Toe powered by Colyseus",
   "main": "src/game.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build && node public/server.js",
     "start:dev": "webpack-dev-server",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,13 +27,17 @@
   "dependencies": {
     "@gamestdio/timer": "^1.1.9",
     "colyseus.js": "^0.14.0",
-    "pixi.js": "^4.7.3",
     "tictactoe-colyseus": "file:..",
+    "express": "^4.17.2",
+    "pixi.js": "^4.7.3",
     "tweener": "^0.1.3"
   },
   "babel": {
     "presets": [
       "es2015"
     ]
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

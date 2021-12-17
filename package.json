@@ -4,7 +4,6 @@
   "description": "HTML5 Tic-Tac-Toe Game powered by Colyseus",
   "scripts": {
     "install": "npm install --prefix ./server && npm install --prefix ./javascript-pixi",
-    "start": "npm start --prefix ./javascript-pixi",
     "start:server": "npm start --prefix ./server",
     "start:client": "npm start --prefix ./javascript-pixi",
     "build:client": "npm run build --prefix ./javascript-pixi"
